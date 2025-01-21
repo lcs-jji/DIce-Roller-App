@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58FB9A762D3E937E00489286 /* Build configuration list for PBXProject "DIce Roller App" */;
+			buildConfigurationList = 58FB9A762D3E937E00489286 /* Build configuration list for PBXProject "Dice Roller App" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58FB9A762D3E937E00489286 /* Build configuration list for PBXProject "DIce Roller App" */ = {
+		58FB9A762D3E937E00489286 /* Build configuration list for PBXProject "Dice Roller App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58FB9A872D3E938100489286 /* Debug */,
