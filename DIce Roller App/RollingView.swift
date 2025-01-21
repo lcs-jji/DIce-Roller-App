@@ -93,6 +93,17 @@ struct RollingView: View {
             dicesRolled.append(condition6)
         }
     }
+    
+    func reset() {
+        condition1 = Int.random(in: 1...6)
+        condition2 = Int.random(in: 2...12)
+        condition3 = Int.random(in: 3...18)
+        condition4 = Int.random(in: 4...24)
+        condition5 = Int.random(in: 5...30)
+        condition6 = Int.random(in: 6...36)
+        feedback = ""
+        dicesRolled.removeAll()
+    }
 
 }
 
