@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		58FB9A7D2D3E937E00489286 /* DIce Roller App */ = {
+		58FB9A7D2D3E937E00489286 /* Dice Roller App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "DIce Roller App";
+			path = "Dice Roller App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		58FB9A722D3E937E00489286 = {
 			isa = PBXGroup;
 			children = (
-				58FB9A7D2D3E937E00489286 /* DIce Roller App */,
+				58FB9A7D2D3E937E00489286 /* Dice Roller App */,
 				58FB9A7C2D3E937E00489286 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				58FB9A7D2D3E937E00489286 /* DIce Roller App */,
+				58FB9A7D2D3E937E00489286 /* Dice Roller App */,
 			);
 			name = "DIce Roller App";
 			packageProductDependencies = (
@@ -85,7 +85,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 58FB9A762D3E937E00489286 /* Build configuration list for PBXProject "Dice Roller App" */;
+			buildConfigurationList = 58FB9A762D3E937E00489286 /* Build configuration list for PBXProject "DIce Roller App" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -305,7 +305,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		58FB9A762D3E937E00489286 /* Build configuration list for PBXProject "Dice Roller App" */ = {
+		58FB9A762D3E937E00489286 /* Build configuration list for PBXProject "DIce Roller App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				58FB9A872D3E938100489286 /* Debug */,
