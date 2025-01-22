@@ -22,28 +22,41 @@ struct RollingView: View {
     var body: some View {
         NavigationStack {
             VStack {
+                Spacer(minLength: 50)
                 Text("Roll the dice, up to 6.")
+                    .fontDesign(.serif)
+                    .bold()
+                    .font(Font.custom("Gill Sans", size: 24))
                 
-                Spacer()
+                Spacer(minLength: 50)
                 
                 Text(feedback)
+                    .fontDesign(.serif)
+                    .font(Font.custom("Gill Sans", size: 24))
                 
-                Spacer()
+                Spacer(minLength: 40)
                 
                 HStack {
                     Stepper(value: $base, in: 1...6, label: {
                         Text("Dice Number")
+                            .fontDesign(.serif)
+                            .bold()
+                            .font(Font.custom("Gill Sans", size: 20))
                     })
                     Spacer(minLength: 20)
                     Text("\(base)")
                 }
                 
-                Spacer()
+                Spacer(minLength: 40)
                 
                 Button {
                     roll()
                 } label: {
                     Text("Roll")
+                        .fontDesign(.serif)
+                        .bold()
+                        .font(Font.custom("Gill Sans", size: 24))
+                        .foregroundStyle(.pink)
                 }
                 
                 Spacer()

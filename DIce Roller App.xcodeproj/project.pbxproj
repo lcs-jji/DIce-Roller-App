@@ -11,9 +11,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		58FB9A7D2D3E937E00489286 /* Dice Roller App */ = {
+		58FB9A7D2D3E937E00489286 /* DIce Roller App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = "Dice Roller App";
+			path = "DIce Roller App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,7 +32,7 @@
 		58FB9A722D3E937E00489286 = {
 			isa = PBXGroup;
 			children = (
-				58FB9A7D2D3E937E00489286 /* Dice Roller App */,
+				58FB9A7D2D3E937E00489286 /* DIce Roller App */,
 				58FB9A7C2D3E937E00489286 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -61,7 +61,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				58FB9A7D2D3E937E00489286 /* Dice Roller App */,
+				58FB9A7D2D3E937E00489286 /* DIce Roller App */,
 			);
 			name = "DIce Roller App";
 			packageProductDependencies = (
