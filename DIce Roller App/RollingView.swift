@@ -45,6 +45,11 @@ struct RollingView: View {
                     })
                     Spacer(minLength: 20)
                     Text("\(base)")
+                        .italic()
+                        .fontDesign(.serif)
+                        .bold()
+                        .font(Font.custom("Gill Sans", size: 30))
+                        .foregroundStyle(.pink)
                 }
                 
                 Spacer(minLength: 40)
@@ -56,24 +61,39 @@ struct RollingView: View {
                         .fontDesign(.serif)
                         .bold()
                         .font(Font.custom("Gill Sans", size: 24))
-                        .foregroundStyle(.pink)
+                        .foregroundStyle(.mint)
                 }
                 
-                Spacer()
+                Spacer(minLength: 30)
                 
                 Button {
                     reset()
                 } label: {
                     Text("Reset")
+                        .fontDesign(.serif)
+                        .bold()
+                        .font(Font.custom("Gill Sans", size: 24))
+                        .foregroundStyle(.blue)
                 }
                 
-                Spacer()
+                Spacer(minLength: 30)
                 
                 Text("Dices Rolled")
+                    .fontDesign(.serif)
+                    .bold()
+                    .font(Font.custom("Gill Sans", size: 24))
+                    .foregroundStyle(.indigo)
+                
+                Spacer(minLength: 20)
+                
                 ScrollView{
                     VStack(spacing: 5){
                         ForEach(dicesRolled, id: \.self) { currentDice in
                             Text("\(currentDice)")
+                                .fontDesign(.serif)
+                                .bold()
+                                .font(Font.custom("Gill Sans", size: 30))
+                                .foregroundStyle(.pink)
                             Divider()
                         }
                     }
